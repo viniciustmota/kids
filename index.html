@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <!-- Icone site -->
+    <link rel="shortcut icon" href="img/abc.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/home.css">
+    <!-- Js -->
+    <script src="js/jquery-3.6.4.js" defer></script>
+
+    <title>Kids</title>
+</head>
+<body class="normal">
+    <div class="games-bg">
+    </div>
+    <header class="header">
+        <nav>
+            <h1><img src="img/abc_m.png" alt="Logo do site ABC"></h1>
+            <ul>
+                <li><a href="#">Jogos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="principal">
+        <div class="area-principal">
+            <img src="img/cubo_magico_m.png" alt="Imagem de um cubo magico" srcset="">
+            <div class="btn-jogar">
+                <a href="#">
+                    <button class="btn_play">JOGAR</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionCarrosel">
+    <div class="carrosel">
+        <div class="slide1">
+            <h1>SÍLABAS</h1>
+            <img src="/img/laranja.png" class="img_game">
+            <button class="btn_jogar"><a href="silabas/silabas.html">JOGAR</a></button>
+        </div>
+        <div class="slide2">
+            <h1>QUEBRA-CABEÇA</h1>
+            <img src="./img/quebra-cabeca.png" alt="" class="img_game">
+            <button class="btn_jogar"><a href="quebra-cabeca/index.html">JOGAR</a></button>
+        </div>
+        <div class="slide3">
+            <h1>DESCUBRA A LETRA</h1>
+            <img src="./img/abc.ico" alt="" class="img_game">
+            <button class="btn_jogar"><a href="descubra-letra/letra.html">JOGAR</a></button>
+        </div>
+    </div>
+    </section>
+
+    </div>
+
+    <div class="div-img">
+        <img src="img/criancas1-m.png" alt="" class="img-left imgs">
+    </div>
+    <img src="img/criancas2-m.png" alt="" class="img-right imgs">
+
+    <section class="animation">
+        <ul class="circles">
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>F</li>
+            <li>H</li>
+            <li>P</li>
+            <li>Y</li>
+            <li>W</li>
+            <li>Z</li>
+        </ul>
+    </section>    
+
+
+    <script>
+        const btn1 = document.querySelector(".btn_play")
+        const containerSection = document.querySelector(".principal")
+        const section = document.querySelector(".area-principal")
+        const carrosel = document.querySelector(".sectionCarrosel")
+        btn1.addEventListener("click", () => {
+            document.body.classList.add("games")
+            section.classList.add("invisivel")
+            $(".imgs").css("display","none") // depois vc testa sem isso, pórem eu acho q fixou bom
+            $("header").css("visibility","hidden") // ve ai pdp
+            
+            setInterval(() =>{
+                document.body.classList.remove("games")
+                carrosel.style.display = "block"
+                containerSection.style.display = "none"
+                document.querySelector(".header").classList.add("header-games")
+                document.querySelector(".imagens-fim").classList.add("imagens-fim-games")
+            }, 1500)
+        })
+    </script>
+</body>
+</html>

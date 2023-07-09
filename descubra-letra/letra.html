@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra as letras</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/abc.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/responsivel-tela-final.css">
+    <link rel="stylesheet" href="css/letras.css">
+    
+    <!-- js -->
+    <script src="../js/jquery-3.6.4.js"></script>
+    <script src="js/app.js" defer></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <h1><img src="../img/abc_m.png" alt="Logo do site ABC"></h1>
+            <ul>
+                <li><a href="../index.html">Jogos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="titulo">DESCUBRA AS LETRAS</h1>
+    <section class="tudo">
+        <section class="principal">
+            <div class="itens">
+                <div class="area-principal">
+                    <div class="letras-div">
+                        <p class="letra letra-maior 1">A</p>
+                    </div>
+                    <div class="escolha-letras">
+                        <div class="parte-de-cima">
+                            <div class="letra amarelo certo1">A</div>
+                            <div class="letra ciano errado">B</div>
+                            <div class="letra verde errado">C</div>
+                            <div class="letra laranja errado">D</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="principal">
+            <div class="itens">
+                <div class="area-principal">
+                    <div class="letras-div">
+                        <div class="parte-de-cima">
+                            <p class="letra letra-maior 2">B</p>
+                            <p class="letra letra-maior 3">C</p>
+                            <p class="letra letra-maior 4">H</p>
+                        </div>
+                    </div>
+                    <div class="escolha-letras">
+                        <div class="parte-de-cima">
+                            <div class="letra verde certo2">H</div>
+                            <div class="letra rosa certo3">B</div>
+                            <div class="letra roxo certo4">C</div>
+                            <div class="letra azul errado">Z</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="principal"><!-- mini-game 3 -->
+            <div class="itens">
+                <div class="area-principal div3">
+                    <div class="letras-div">
+                        <div class="parte-de-cima menor">
+                            <p class="letra letra-maior 5">S</p>
+                            <p class="letra letra-maior 6">V</p>
+                            <p class="letra letra-maior 7">M</p>
+                        </div>
+                        <div class="parte-de-baixo">
+                            <p class="letra letra-maior 8">U</p>
+                            <p class="letra letra-maior 9">F</p>
+                            <p class="letra letra-maior 10">J</p>
+                        </div>
+                    </div>
+                    <div class="escolha-letras">
+                        <div class="parte-de-cima">
+                            <div class="letra ciano certo5">U</div>
+                            <div class="letra rosa certo6">F</div>
+                            <div class="letra verde certo7">S</div>
+                            <div class="letra amarelo errado">B</div>
+                        </div>
+                        <div class="parte-de-baixo">
+                            <div class="letra laranja certo8">V</div>
+                            <div class="letra roxo certo9">J</div>
+                            <div class="letra azul certo10">M</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    
+    <section class="fim-game invisivel">
+            <div class="tela-final">
+                <h1>PARABÉNS</h1>
+                <p>Você concluiu o jogo</p>
+                <div class="botoes-fim">
+                    <a href="./letra.html" class="link-fim-game"><button class="btn-fim reiniciar"><i class="fa-solid fa-arrow-rotate-right"></i></button></a>
+                    <a href="../index.html" class="link-fim-game"><button class="btn-fim outros-jogos"><i class="fa-solid fa-house"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright">&copy;2023, todos os direitos reservados | Vinicius Mota e Marcio Piva</p>
+    </footer>
+</body>
+</html>

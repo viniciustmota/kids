@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/responsivel-tela-final.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+          <!-- font-awesome -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SAPO | QUEBRA-CABEÇA</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <h1><img src="../img/abc_m.png" alt="Logo do site ABC"></h1>
+            <ul>
+                <li><a href="../index.html">Jogos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="img-container">
+        <img src="./imgs/sapo/base-sapo1.png" alt="primeira peça quebra cabeça" srcset="" class="table1 peca1-in">
+    </div>
+
+    <div class="msg"></div>
+
+    <div class="peças">
+        <img src="imgs/sapo/sapo-peca1.png" alt="" id="peca1">
+        <img src="imgs/sapo/sapo-peca2.png" alt="" id="peca3">
+        <img src="imgs/sapo/sapo-peca3.png" alt="" id="peca4">
+        <img src="imgs/sapo/sapo-peca4.png" alt="" id="peca2">
+    </div>
+
+    <section class="fim-game invisivel">
+        <div class="tela-final">
+            <h1>PARABÉNS</h1>
+            <p>Você concluiu o jogo</p>
+            <div class="botoes-fim">
+                <a href="./index.html" class="link-fim-game"><button class="btn-fim reiniciar"><i class="fa-solid fa-arrow-rotate-right"></i></button></a>
+                <a href="../index.html" class="link-fim-game"><button class="btn-fim outros-jogos"><i class="fa-solid fa-house"></i></button></a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/sapo.js"></script>
+    
+</body>
+</html>
