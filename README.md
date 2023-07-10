@@ -1,5 +1,7 @@
 # Kids
 
+> Status do projeto: Finalizado
+
 Jogos para crianças de 6 a 8 anos melhorarem na formação de palavras e sílabas, são 3 jogos: Sílabas, Quebra Cabeça e Acerte a letra
 
 ![Página inicial](https://github.com/viniciustmota/kids/assets/106537834/1ae1ad90-915a-40fb-bed0-e1c45947bfdb)
