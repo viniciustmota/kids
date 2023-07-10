@@ -17,7 +17,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 * Tenha instalado [Git](https://git-scm.com/) na sua máquina.
 * use o comando abaixo para importar os arquivos
 ```
-git clone
+git clone https://github.com/viniciustmota/kids.git
 ```
 
 ## 🛠️ Construído com
