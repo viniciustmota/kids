@@ -29,6 +29,22 @@ git clone https://github.com/viniciustmota/kids.git
 * JavaScript
 * Jquery
 
+## 📜 Contribuição 
+
+Sinta-se à vontade para contribuir com este projeto. Você pode:
+
+- Reportar problemas.
+- Sugerir melhorias.
+- fazer pull requests.
+
+## 📎 Links 
+
+1. [Canva/design]() 
+
+2. [Site](https://kids-ochre.vercel.app/)
+
+3. [Repositório](https://github.com/viniciustmota/kids)
+
 ## 🖇️ Colaboradores
 * **Eduarda Moraes Martins Modesto** - *Auxiliou nas cores, ortografia e teste final* - [Instagram](https://www.instagram.com/_dudamartins0302/)
 * **Davi Santos** - *Auxiliou na ortografia e teste final* - [Instagram](https://www.instagram.com/_dudamartins0302/)
@@ -37,6 +53,11 @@ git clone https://github.com/viniciustmota/kids.git
 
 * **Vinícius Tavares Mota** - *Design do projeto, desenvolvimento da Página inicial, Sílabas e Descubra a letra* - [GitHub](https://github.com/viniciustmota) - [Linkedin](https://www.linkedin.com/in/viniciustmota/)
 * **Marcio Piva Junior** - *Animação das letras na página inicial e desenvolvimento da página Quebra Cabeça* - [GitHub](https://github.com/marcioP457) - [Linkedin](https://www.linkedin.com/in/m%C3%A1rcio-piva-junior-32a30a262/)
+
+## 🎯 Objetivo com o Projeto
+
+* Por em pratica aprendizado de Jquery
+* Trabalho escolar 2º AMS/Fatec - Garça-SP
 
 ## 🎁 Expressões de gratidão
 
