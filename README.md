@@ -47,7 +47,7 @@ Sinta-se à vontade para contribuir com este projeto. Você pode:
 
 ## 🖇️ Colaboradores
 * **Eduarda Moraes Martins Modesto** - *Auxiliou nas cores, ortografia e teste final* - [Instagram](https://www.instagram.com/_dudamartins0302/)
-* **Davi Santos** - *Auxiliou na ortografia e teste final* - [Instagram](https://www.instagram.com/_dudamartins0302/)
+* **Davi Santos** - *Auxiliou na ortografia e teste final* - [Instagram](https://www.instagram.com/@ddavi_santos)
 
 ## ✒️ Autores
 
